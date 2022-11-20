@@ -1,16 +1,32 @@
-var barSeries = [{
-	name: 'Oil and gas extraction',
-	data: [13.93, 13.63, 13.73, 13.67]
-
+let pieSeries = {
+	name: 'Выручка',
+	colorByPoint: true,
+	data: [{
+	  name: 'Электронный рай',
+	  y: 180
 	}, {
-	name: 'Manufacturing industries and mining',
-	data: [12.24, 12.24, 11.95, 12.02]
-
+	  name: 'ОранжПарк',
+	  y: 90
+	},  {
+	  name: 'Росатом',
+	  y: 280
 	}, {
-	name: 'Road traffic',
-	data: [10.00, 9.93, 9.97, 10.01]
-
+	  name: 'Апгрейд',
+	  y: 270
 	}, {
-	name: 'Agriculture',
-	data: [4.35, 4.32, 4.34, 4.39]
-}]
+	  name: 'Мишлен',
+	  y: 390
+	},  {
+	  name: 'Масконти',
+	  y: 450
+	}, {
+	  name: 'Кривегика',
+	  y: 370
+	}, {
+	  name: 'Невис',
+	  y: 260
+	}, {
+	  name: 'Амиталь',
+	  y: 50
+	}]
+ }
