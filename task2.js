@@ -10,7 +10,7 @@ widget.innerHTML = `
 	</table>
 `
 
-let table = document.getElementById('table-task2')
+let table_task2 = document.getElementById('table-task2')
 
 let tableSeries = [[
 	'Иванов Егор',
@@ -40,11 +40,10 @@ tableSeries.map(function(elem, index){
 
 
 for (let i=0; i<tableSeries.length; i++){
-	tableSeries.insertRow()
+	table_task2.insertRow()
 	for (let j=0; j<4; j++){
-		tableSeries.rows[i+1].insertCell()
-		tableSeries.rows[i+1].cells[j].innerText = tableSeries[i][j]
+		table_task2.rows[i+1].insertCell()
+		table_task2.rows[i+1].cells[j].innerText = tableSeries[i][j]
 	}
-	
 }
 
